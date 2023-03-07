@@ -1,0 +1,37 @@
+.nav_sect{
+    position: fixed;
+    background-color: darkslategrey;
+}
+.nav_sect nav {
+   
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 1%;
+ 
+}
+.nav_sect ul li{
+    
+    margin-right: 20px;
+    display: inline;
+   
+}
+.nav_sect ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_sect img{
+    max-width: 12%;
+}
+.container{
+    margin-bottom: 11%;
+}
+.container img{
+ 
+ width: 60%;
+ height: 40%;
+}
+.container .text{
+    float: right;
+    color: white;
+}

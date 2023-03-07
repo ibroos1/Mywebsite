@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+
+
+    margin: 8%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-right: 4%;
+    margin-left: 4%;
+    border-style: dashed;
+    height: 100%;
+    border-color: white;
+}
+
+.img{
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    float: left;
+    height: 96%;
+    width: 50%;
+}
+.text{
+    color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    font-size: 200%;
+}
+.header{
+    margin-bottom: 25%;
+}
