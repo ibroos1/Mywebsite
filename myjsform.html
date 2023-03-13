@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="name">sname</label>
+            <input type="text" id="surname">
+        </div>
+        <div>
+            <label for="">phone</label>
+            <input type="num" name="number" id="phone">
+        </div>
+    </form>
+    <input type="button" onclick="add();" value="Add">
+    <div>
+        <table id="output">
+            <thead><td>Name</td><td>sname</td><td>phone</td></thead>
+            <tbody></tbody>
+        </table>
+        <script>
+            function add(){
+    var name = document.getElementById("name");
+    var surname = document.getElementById("surname");
+    var number = document.getElementById("phone")
+    var output = document.querySelector("#output tbody");
+    output.innerHTML += "<tr><td>"+name.value+"</td><td>"+surname.value+ "</td><td>"+phone.value+"</td></tr>"
+  }
+        </script>
+    </div>
+</body>
+</html>
